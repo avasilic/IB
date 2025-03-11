@@ -16,8 +16,12 @@ public class Lesson2 {
 		// the value of the variable
 		System.out.println(number); // This will print the current value of the
 		// variable number
-		
+
 		// int number = 10; Not possible because number is declared
-		
+
+		number = 15; // The old value is overwritten/lost
+		System.out.println(number);
+
+		// 20 = number; LHS of an assignment must be a variable
 	}
 }
