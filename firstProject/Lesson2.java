@@ -23,5 +23,9 @@ public class Lesson2 {
 		System.out.println(number);
 
 		// 20 = number; LHS of an assignment must be a variable
+
+		// number = 8.2 Type mismatch: cannot convert from double to int
+
+		System.out.println("number = " + number); // Con. cat. str. and var.
 	}
 }
