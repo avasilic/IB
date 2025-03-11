@@ -2,6 +2,7 @@
  * Author: Aleksandar Vasilić
  * 2025
  * This file creates the basic Lesson1 class.
+ ************************************************
 */
 public class Lesson1 {
 	public static void main(String args[]) {
