@@ -4,6 +4,12 @@
  * This file creates the basic Lesson1 class.
  ************************************************
 */
+
+/*
+// - Makes a single line comment
+/* - Starts a multiline comment
+*/
+
 public class Lesson1 {
 	public static void main(String args[]) {
 		System.out.println("Hello world!"); // Print content & new line
