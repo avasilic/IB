@@ -10,6 +10,9 @@ public class Lesson2 {
 		int number; // This declares an integer variable
 		number = 100; // The variable is not initialized and 100 is cur. val.
 
-		System.out.println("number");
+		System.out.println("number"); // This will output the word "number", not
+		// the value of the variable
+		System.out.println(number); // This will print the current value of the
+		// variable number
 	}
 }
