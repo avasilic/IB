@@ -79,19 +79,19 @@ public class Lesson2 {
 		rate = 10; // Doubles can store integers as well, but not the other way
 		// around
 		System.out.println(rate);
-		
+
 		double distance = 1.55E7; // We can use scientific notation. 1.55*10^7
 		System.out.println(distance);
-		
+
 		final double Pi = 3.14; // The final keyword makes it a named constant
 		// Pi = 4.14; We cannot change a constant, unlike with variables
 		/*
-		Benefits of constants:
-		- It can prevent you from accidentally changing the value
-		- More readable and understandable code
-		- Replacing/changing that particular value is much easier
-		- Avoid mistakes that are hard to find manually (esp. large codebases)
-		*/
-		
+		 * Benefits of constants:
+		 * - It can prevent you from accidentally changing the value
+		 * - More readable and understandable code
+		 * - Replacing/changing that particular value is much easier
+		 * - Avoid mistakes that are hard to find manually (esp. large codebases)
+		 */
+
 	}
 }
