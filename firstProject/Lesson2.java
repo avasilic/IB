@@ -63,5 +63,16 @@ public class Lesson2 {
 		System.out.println("3*17+2 = " + 3*17+2); // The plus behind the 2 here
 		// is concatentation, not addition. In order to get the correct result,
 		System.out.println("3*17+2 = " + (3*17+2)); // Use brackets
+		
+		System.out.println("2+2 = 5");
+		
+		System.out.println(thirdNumber > 1000); // This will evaluate if this
+		// condition is true
+		 
+		System.out.println(thirdNumber == 500); // == is used for comparing
+		
+		System.out.println(thirdNumber != 20); // != is is not
+		
+		System.out.println(thirdNumber >= 500); // Greater than or eq
 	}
 }
