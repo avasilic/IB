@@ -27,5 +27,9 @@ public class Lesson2 {
 		// number = 8.2 Type mismatch: cannot convert from double to int
 
 		System.out.println("number = " + number); // Con. cat. str. and var.
+
+		System.out.println(2 * number); // The value of the number won't be
+	 	// changed
+		System.out.println(number);
 	}
 }
