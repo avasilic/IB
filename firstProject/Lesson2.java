@@ -29,50 +29,55 @@ public class Lesson2 {
 		System.out.println("number = " + number); // Con. cat. str. and var.
 
 		System.out.println(2 * number); // The value of the number won't be
-	 	// changed
+		// changed
 		System.out.println(number);
-		
+
 		int secondNumber = 10;
-		
+
 		/*
-		Naming conventions:
-		Not allowed:
-			- No space in names (e.g., second number)
-			- using - (e.g., second-number)
-			- using special characters (e.g., second?number)
-			- starting with a digit (e.g., 2ndnumber). number2 is OK
-		Encouraged:
-			- camelCase or
-			- snake_case
-		*/
-		
+		 * Naming conventions:
+		 * Not allowed:
+		 * - No space in names (e.g., second number)
+		 * - using - (e.g., second-number)
+		 * - using special characters (e.g., second?number)
+		 * - starting with a digit (e.g., 2ndnumber). number2 is OK
+		 * Encouraged:
+		 * - camelCase or
+		 * - snake_case
+		 */
+
 		int thirdNumber = 50;
-		
+
 		secondNumber = thirdNumber + 10; // We can use one variable to assign
 		// to another. This will not change the value of thirdNumber
-		
+
 		System.out.println(secondNumber);
-		
+
 		thirdNumber = 500;
-		
+
 		System.out.println(secondNumber); // This will not be 510 as
 		// thirdNumber + 10 was evaluated when thirdNumber was 50
-		 
-		System.out.println(3*17+2); // The expression is evaluated immediately
+
+		System.out.println(3 * 17 + 2); // The expression is evaluated immediately
 		// and the result is displayed
-		System.out.println("3*17+2 = " + 3*17+2); // The plus behind the 2 here
+		System.out.println("3*17+2 = " + 3 * 17 + 2); // The plus behind the 2 here
 		// is concatentation, not addition. In order to get the correct result,
-		System.out.println("3*17+2 = " + (3*17+2)); // Use brackets
-		
+		System.out.println("3*17+2 = " + (3 * 17 + 2)); // Use brackets
+
 		System.out.println("2+2 = 5");
-		
+
 		System.out.println(thirdNumber > 1000); // This will evaluate if this
 		// condition is true
-		 
+
 		System.out.println(thirdNumber == 500); // == is used for comparing
-		
+
 		System.out.println(thirdNumber != 20); // != is is not
-		
+
 		System.out.println(thirdNumber >= 500); // Greater than or eq
+
+		double rate = 4.52; // Doubles can store decimal values
+		rate = 10; // Doubles can store integers as well, but not the other way
+		// around
+		System.out.println(rate);
 	}
 }
