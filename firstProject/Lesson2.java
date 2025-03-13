@@ -31,5 +31,19 @@ public class Lesson2 {
 		System.out.println(2 * number); // The value of the number won't be
 	 	// changed
 		System.out.println(number);
+		
+		int secondNumber = 10;
+		
+		/*
+		Naming conventions:
+		Not allowed:
+			- No space in names (e.g., second number)
+			- using - (e.g., second-number)
+			- using special characters (e.g., second?number)
+			- starting with a digit (e.g., 2ndnumber). number2 is OK
+		Encouraged:
+			- camelCase or
+			- snake_case
+		*/
 	}
 }
