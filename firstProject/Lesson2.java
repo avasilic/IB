@@ -45,5 +45,17 @@ public class Lesson2 {
 			- camelCase or
 			- snake_case
 		*/
+		
+		int thirdNumber = 50;
+		
+		secondNumber = thirdNumber + 10; // We can use one variable to assign
+		// to another. This will not change the value of thirdNumber
+		
+		System.out.println(secondNumber);
+		
+		thirdNumber = 500;
+		
+		System.out.println(secondNumber); // This will not be 510 as
+		// thirdNumber + 10 was evaluated when thirdNumber was 50
 	}
 }
