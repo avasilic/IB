@@ -92,6 +92,7 @@ public class Lesson2 {
 		 * - Replacing/changing that particular value is much easier
 		 * - Avoid mistakes that are hard to find manually (esp. large codebases)
 		 */
-
+			
+		// Homework: BluePelican Exercise 2 and Project from me to you
 	}
 }
