@@ -57,5 +57,11 @@ public class Lesson2 {
 		
 		System.out.println(secondNumber); // This will not be 510 as
 		// thirdNumber + 10 was evaluated when thirdNumber was 50
+		 
+		System.out.println(3*17+2); // The expression is evaluated immediately
+		// and the result is displayed
+		System.out.println("3*17+2 = " + 3*17+2); // The plus behind the 2 here
+		// is concatentation, not addition. In order to get the correct result,
+		System.out.println("3*17+2 = " + (3*17+2)); // Use brackets
 	}
 }
