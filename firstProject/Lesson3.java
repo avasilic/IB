@@ -26,5 +26,10 @@ public class Lesson3 {
 
 		second = second.toLowerCase(); // The value of second is changed here
 		System.out.println(second);
+		
+		System.out.println(second.substring(2)); // In Java, strings are
+	 	// zero-indexed. Calling substring(2) will, from that position on, 
+	 	// return the substring starting from the third character.
+		// Zero-indexed means that counting starts from 0. So, n = 0, e = 1, ...
 	}
 }
