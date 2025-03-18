@@ -63,5 +63,8 @@ public class Lesson3 {
 		System.out.println("\"Good morning!\"");
 		System.out.println("He said \"Good morning!\" to her."); // We can have
 		// text before and after the escape
+
+		System.out.println("Save file in C:\\Test"); // If we actually want to
+		// print a \ we use \\
 	}
 }
