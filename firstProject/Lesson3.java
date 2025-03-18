@@ -41,6 +41,7 @@ public class Lesson3 {
 		// provide any arguments
 
 		// The existence of two methods with the same name with a different
-		// number of arguments is an example of polymorphism.
+		// number of arguments is an example of polymorphism. We can also do
+		// polymorphism with types, not just the number of arguments
 	}
 }
