@@ -7,6 +7,7 @@
 
 public class Lesson3 {
 	public static void main(String args[]) {
-		
+		String first = "Happy"; // The value must be written between quotation
+		// marks
 	}
 }
