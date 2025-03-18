@@ -55,11 +55,13 @@ public class Lesson3 {
 		System.out.println("6\t1001\t33"); // \t is a tab (tabulation). It can
 		// help us align values. The output can look like a table
 
-		// System.out.println(""Good morning!""); // This is invalid as it sees
+		// System.out.println(""Good morning!""); This is invalid as it sees
 		// the first " as the start of a string, the second " as the end of
 		// the first string, and then Java will try to look for variables good
 		// and morning, which do not exist. If we want to print the " we need to
 		// escape it:
 		System.out.println("\"Good morning!\"");
+		System.out.println("He said \"Good morning!\" to her."); // We can have
+		// text before and after the escape
 	}
 }
