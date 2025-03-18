@@ -48,5 +48,7 @@ public class Lesson3 {
 		System.out.println("Happy\nNew\nYear"); // Everything in quotation marks
 		// will be printed except if we have an escape sequence. \n is an escape
 		// sequence that will create a new line
+		
+		System.out.println(first + "\n" + second);
 	}
 }
