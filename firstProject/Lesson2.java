@@ -1,6 +1,6 @@
 /*
  * Author: Aleksandar Vasilić
- * 2025
+ * Date: 2025-03-11
  * Variables, constants, naming conventions, declaring, initializing, and
  * assign command.
  ************************************************
@@ -85,6 +85,7 @@ public class Lesson2 {
 
 		final double Pi = 3.14; // The final keyword makes it a named constant
 		// Pi = 4.14; We cannot change a constant, unlike with variables
+		System.out.println(Pi);
 		/*
 		 * Benefits of constants:
 		 * - It can prevent you from accidentally changing the value

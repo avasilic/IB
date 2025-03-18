@@ -1,6 +1,6 @@
 /*
  * Author: Aleksandar Vasilić
- * 2025
+ * Date: 2025-03-06
  * This file creates the basic Lesson1 class.
  ************************************************
 */
