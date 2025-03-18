@@ -34,8 +34,8 @@ public class Lesson3 {
 
 		System.out.println(second.substring(2, 6)); // Returns the substring
 		// from the third character to the fifth character. The first one is
-		// inclusive. The second is exclusive.
-		// 2 and 6 are arguments for the method call.
+		// inclusive. The second is exclusive
+		// 2 and 6 are arguments for the method call
 
 		// System.out.println(second.substring()); This will error as we did not
 		// provide any arguments
@@ -43,5 +43,8 @@ public class Lesson3 {
 		// The existence of two methods with the same name with a different
 		// number of arguments is an example of polymorphism. We can also do
 		// polymorphism with types, not just the number of arguments
+
+		// Escape sequences
+		System.out.println("Happy\nNew Year"); // \n will create a new line
 	}
 }
