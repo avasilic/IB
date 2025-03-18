@@ -49,6 +49,9 @@ public class Lesson3 {
 		// will be printed except if we have an escape sequence. \n is an escape
 		// sequence that will create a new line
 		
-		System.out.println(first + "\n" + second);
+		System.out.println(first + "\n" + second); // This will concatenate
+		// first with \n, so it will add a new line after printing first
+		
+		System.out.println("6\t1001\t33"); // \t is a tab (tabulation)
 	}
 }
