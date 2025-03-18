@@ -37,6 +37,7 @@ public class Lesson3 {
 		// inclusive. The second is exclusive.
 		// 2 and 6 are arguments for the method call.
 		
-		// System.out.println(second.substring()); This will error as 
+		// System.out.println(second.substring()); This will error as we did not
+		// provide any arguments
 	}
 }
