@@ -45,6 +45,8 @@ public class Lesson3 {
 		// polymorphism with types, not just the number of arguments
 
 		// Escape sequences
-		System.out.println("Happy\nNew Year"); // \n will create a new line
+		System.out.println("Happy\nNew\nYear"); // Everything in quotation marks
+		// will be printed except if we have an escape sequence. \n is an escape
+		// sequence that will create a new line
 	}
 }
