@@ -13,5 +13,10 @@ public class Lesson3 {
 		System.out.println(first + second); // No blank in between Happy and
 		// New Year
 		System.out.println(first + " " + second);
+		
+		// String methods
+		 
+		System.out.println(first.length()); // Length is a method so we use ()
+		// to call it. It returns the number of characters in the string
 	}
 }
