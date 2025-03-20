@@ -8,7 +8,7 @@
 public class Lesson4 {
 	public static void main(String args[]) {
 		String sentence = "Out of the space - out of the mind.the end.";
-		
+
 		System.out.println(sentence.indexOf("the")); // 7. indexOf returns the
 		// index of the first occurrence of the specified substring
 		System.out.println(sentence.indexOf("THE")); // This shows indexOf is
@@ -16,8 +16,17 @@ public class Lesson4 {
 		System.out.println(sentence.indexOf("cosmos")); // -1 is returned
 		// whenever it is not found. It does not occur only when the case is
 		// different
-		
+
 		System.out.println(sentence.lastIndexOf("the")); // lastIndexOf returns
 		// the index of the last occurrence of the specified substring
+
+		System.out.println(sentence.indexOf("the", 15)); // 25. indexOf returns
+		// the index of the first occurrence of the specified substring after
+		// the specified index (inclusive)
+
+		// System.out.println(sentence.indexOf(15, "the")); Polymorphism
+
+		System.out.println(sentence.indexOf("pace")); // It does not nessecarily
+		// match a word, rather a substring
 	}
 }
