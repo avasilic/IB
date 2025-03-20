@@ -10,7 +10,10 @@ public class Lesson4 {
 		String sentence = "Out of the space - out of the mind. the end.";
 		System.out.println(sentence.indexOf("the")); // 7. indexOf returns the
 		// index of the first occurrence of the specified substring
-		System.out.println(sentence.indexOf("THE")); // This shows it is case
-		// sensitive. If a substring is not found then we return -1
+		System.out.println(sentence.indexOf("THE")); // This shows indexOf is
+		// case sensitive. If a substring is not found then we return -1
+		System.out.println(sentence.indexOf("cosmos")); // -1 is returned
+		// whenever it is not found. It does not occur only when the case is
+		// different
 	}
 }
