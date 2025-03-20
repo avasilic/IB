@@ -56,5 +56,16 @@ public class Lesson4 {
 		char symbol = 'c'; // ' is used for characters. Char can store only one
 		// character. For that reason the following is invalid:
 		// char car = 'ford';
+
+		String anotherSymbol = "c"; // We can a string to store a single
+		// character, but using char is better here
+
+		System.out.println(sentence.indexOf(symbol)); // A char can also be an
+		// argument for indexOf. In this case it will find the first occurence
+		// of c
+
+		System.out.println(sentence.indexOf(99)); // We can also pass ASCII
+		// codes to indexOf. 99 is a lowercase c, so we will get the same result
+		// as the previous line
 	}
 }
