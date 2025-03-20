@@ -33,5 +33,20 @@ public class Lesson4 {
 
 		System.out.println(sentence.indexOf(temp)); // We can pass a String
 		// variable to the arguments of the method call
+
+		String temp2 = "The mind";
+		System.out.println(temp.compareTo(temp2)); // compareTo returns the
+		// difference between the ASCII values of the first non-matching
+		// characters. In ASCII first we have uppercase and then lowercase, in
+		// alphabetical order.
+
+		String temp3 = "abba";
+		System.out.println(temp.compareTo(temp3)); // This returns 19 since
+		// 't' has ASCII value 116 and 'a' has ASCII value 97
+		System.out.println(temp.compareTo("war")); // This returns -3 since
+		// 't' has ASCII value 116 and 'w' has ASCII value 119
+		// So, if the value is positive the string we are comparing to goes
+		// after our initial string, and if the value if is negative the string
+		// we are comparing to goes before our initial string
 	}
 }
