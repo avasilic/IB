@@ -67,5 +67,10 @@ public class Lesson4 {
 		System.out.println(sentence.indexOf(99)); // We can also pass ASCII
 		// codes to indexOf. 99 is a lowercase c, so we will get the same result
 		// as the previous line
+
+		System.out.println(sentence.charAt(5)); // Returns the char value at
+		// the specified index. 'f' in this case
+		System.out.println(sentence.charAt(0)); // This will return the first
+		// char in the string
 	}
 }
