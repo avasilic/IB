@@ -1,7 +1,8 @@
 /*
  * Author: Aleksandar Vasilić
- * Date: 2025-03-18
- * String variables, string operations, escape sequences
+ * Date: 2025-03-20
+ * String variables, string operations, escape sequences. Related to Lesson 3
+ * in the Java BluePelican book.
  ************************************************
 */
 
