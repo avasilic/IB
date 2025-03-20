@@ -28,5 +28,10 @@ public class Lesson4 {
 
 		System.out.println(sentence.indexOf("pace")); // It does not nessecarily
 		// match a word, rather a substring
+
+		String temp = "the mind";
+
+		System.out.println(sentence.indexOf(temp)); // We can pass a String
+		// variable to the arguments of the method call
 	}
 }
