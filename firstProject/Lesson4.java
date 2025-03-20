@@ -72,5 +72,11 @@ public class Lesson4 {
 		// the specified index. 'f' in this case
 		System.out.println(sentence.charAt(0)); // This will return the first
 		// char in the string
+		
+		// System.out.println(sentence.charAt(100)); // This will return a
+		// runtime error since the string does not have a character at index 100
+		
+		// Display the last character of the sentence that we have
+		System.out.println(sentence.charAt(sentence.length() - 1));
 	}
 }
