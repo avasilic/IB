@@ -7,6 +7,7 @@
 
 public class Lesson4 {
 	public static void main(String args[]) {
-		
+		String sentence = "Out of the space - out of the mind. The end.";
+		System.out.println(sentence.indexOf("the"));
 	}
 }
