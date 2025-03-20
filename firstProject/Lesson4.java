@@ -1,7 +1,8 @@
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-03-20
- * Advanced string methods. Related to Lesson 17 in the Java BluePelican book. 
+ * Advanced string methods and the 'char' variable type. Related to Lesson 17
+ * in the Java BluePelican book. 
  ************************************************
 */
 
@@ -48,5 +49,12 @@ public class Lesson4 {
 		// So, if the value is positive the string we are comparing to goes
 		// after our initial string, and if the value if is negative the string
 		// we are comparing to goes before our initial string
+
+		// The 'char' type
+
+		// char symbol = "c"; " is only used for strings
+		char symbol = 'c'; // ' is used for characters. Char can store only one
+		// character. For that reason the following is invalid:
+		// char car = 'ford';
 	}
 }
