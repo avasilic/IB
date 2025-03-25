@@ -92,17 +92,22 @@ public class Lesson4 {
 
 		String name = " Mad";
 		String surname = "    Max";
-		
+
 		System.out.println("Your initials are " + name.charAt(0) + "." + surname.charAt(0));
 		// The above shows an example of an issue twhere we did not trim the
 		// user's input. This is a fixed example:
 		System.out.println("Your initials are " + name.trim().charAt(0) + "." + surname.trim().charAt(0));
-		
+
 		name = name.trim();
 		surname = surname.trim();
-		
+
 		System.out.println("Your initials are " + name.charAt(0) + "." + surname.charAt(0));
 		// Now that we have changed the variables to be trimmed we can use the
 		// original line of code
+
+		System.out.println(sentence.contains("mind")); // contains returns true
+		// if and only if this string contains the specified string
+		System.out.println(sentence.contains("key")); // This will return false
+		// as the sentence does not contain key
 	}
 }
