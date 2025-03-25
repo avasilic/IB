@@ -88,6 +88,6 @@ public class Lesson4 {
 		System.out.println("START" + temp + "END");
 		System.out.println("START" + temp.trim() + "END"); // .trim() returns a
 		// string whose value is this string, with all leading and trailing
-		// space removed
+		// space removed (whitespace)
 	}
 }
