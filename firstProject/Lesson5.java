@@ -34,10 +34,24 @@ public class Lesson5 {
 		++a; // a++ will use a in an expression then increase it by 1. ++a will
 		// first increase a by 1 then use it in an expression
 
-		System.out.println(a);
-		System.out.println(a++); // This will use the old version and then
-		// increase it by one:
-		System.out.println(a); // 19
-		System.out.println(++a); // Now it will first increment then print it
+		System.out.println(a); // Prints the current value of a
+		System.out.println(a++); // Prints current value of a, then increments
+		// a afterward (post-increment: use value first, then increment)
+		System.out.println(a); // Prints the updated value of a after
+		// post-increment
+
+		System.out.println(++a); // Increments a first, then prints the new
+		// value (pre-increment: increment first, then use value)
+
+		System.out.println(a++ + a); // Evaluates as: (current a) +
+		// (incremented a). First uses current value in expression, then
+		// increments. Right side 'a' reflects the incremented value
+		// Example: if a=20, calculates 20 + 21 = 41, a becomes 21
+
+		System.out.println(++a + a); // Evaluates as: (incremented a) + (same
+		// incremented a). First increments a, then uses that value twice
+		// Example: if a=21, increments to 22, then calculates 22 + 22 = 44
+
+		a += 1; // This will increment a by 1
 	}
 }
