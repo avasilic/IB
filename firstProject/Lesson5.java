@@ -13,8 +13,10 @@ public class Lesson5 {
 		System.out.println(a - 2 * 10 / 5 - (3 - 5) * 2); // PEMDAS, from left-to-right
 
 		System.out.println(a / 4); // Java will write down the whole number
-	 	// since it is an integer division (3)
+		// since it is an integer division (3)
 		System.out.println(a / 4.0); // Java will write down the decimal number
 		// since it is a double division (3.75)
+
+		System.out.println((double) a / 4.0); // We've now casted the integer to a double (temporarily of course)
 	}
 }
