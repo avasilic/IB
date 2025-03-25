@@ -73,15 +73,21 @@ public class Lesson4 {
 		// the specified index. 'f' in this case
 		System.out.println(sentence.charAt(0)); // This will return the first
 		// char in the string
-		
+
 		// System.out.println(sentence.charAt(100)); // This will return a
 		// runtime error since the string does not have a character at index 100
-		
+
 		// Display the last character of the sentence that we have
 		System.out.println(sentence.charAt(sentence.length() - 1));
-		
+
 		// Replace will replace all occurences of the given string with the new
 		// string
 		System.out.println(sentence.replace("the", "THE"));
+
+		temp = "     \n blah blah          ";
+		System.out.println("START" + temp + "END");
+		System.out.println("START" + temp.trim() + "END"); // .trim() returns a
+		// string whose value is this string, with all leading and trailing
+		// space removed
 	}
 }
