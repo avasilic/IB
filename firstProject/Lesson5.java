@@ -10,6 +10,11 @@ public class Lesson5 {
 	public static void main(String args[]) {
 		int a = 15;
 		double b = 12.95;
-		System.out.println(a-2*10/5-(3-5)*2); // PEMDAS, from left-to-right
+		System.out.println(a - 2 * 10 / 5 - (3 - 5) * 2); // PEMDAS, from left-to-right
+
+		System.out.println(a / 4); // Java will write down the whole number
+	 	// since it is an integer division (3)
+		System.out.println(a / 4.0); // Java will write down the decimal number
+		// since it is a double division (3.75)
 	}
 }
