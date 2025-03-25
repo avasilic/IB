@@ -28,5 +28,16 @@ public class Lesson5 {
 
 		a = a + 1; // Remember that = is the assignment operator, not the equal
 		// operator. The equal operator is ==
+
+		a++; // a++ will automatically set the variable value to a+1. It is the
+		// same as a = a+1
+		++a; // a++ will use a in an expression then increase it by 1. ++a will
+		// first increase a by 1 then use it in an expression
+
+		System.out.println(a);
+		System.out.println(a++); // This will use the old version and then
+		// increase it by one:
+		System.out.println(a); // 19
+		System.out.println(++a); // Now it will first increment then print it
 	}
 }
