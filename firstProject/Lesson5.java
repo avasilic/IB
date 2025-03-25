@@ -1,7 +1,7 @@
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-03-25
- * Use of numerical variables and math operations. Related to Lesson 4
+ * Use of numerical variables, casting, and math operations. Related to Lesson 4
  * in the Java BluePelican book. 
  ************************************************
 */
