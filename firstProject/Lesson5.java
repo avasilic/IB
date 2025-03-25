@@ -18,6 +18,15 @@ public class Lesson5 {
 		// since it is a double division (3.75)
 
 		System.out.println((double) a / 4); // We've now casted the integer to a double (temporarily of course)
-		System.out.println((double)(a/4));
+		System.out.println((double) (a / 4));
+
+		System.out.println(a % 7); // % is the remainder operator. This will
+		// return the remainder of a divided by 7 (1)
+		System.out.println(a % 3); // Remainder is 0. The modulus operator can
+		// be useful when needing to check if two numbers are divisible by each
+		// other
+
+		a = a + 1; // Remember that = is the assignment operator, not the equal
+		// operator. The equal operator is ==
 	}
 }
