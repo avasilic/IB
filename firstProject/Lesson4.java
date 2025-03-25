@@ -59,6 +59,7 @@ public class Lesson4 {
 
 		String anotherSymbol = "c"; // We can a string to store a single
 		// character, but using char is better here
+		System.out.println(anotherSymbol);
 
 		System.out.println(sentence.indexOf(symbol)); // A char can also be an
 		// argument for indexOf. In this case it will find the first occurence
@@ -78,5 +79,9 @@ public class Lesson4 {
 		
 		// Display the last character of the sentence that we have
 		System.out.println(sentence.charAt(sentence.length() - 1));
+		
+		// Replace will replace all occurences of the given string with the new
+		// string
+		System.out.println(sentence.replace("the", "THE"));
 	}
 }
