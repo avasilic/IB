@@ -89,5 +89,13 @@ public class Lesson4 {
 		System.out.println("START" + temp.trim() + "END"); // .trim() returns a
 		// string whose value is this string, with all leading and trailing
 		// space removed (whitespace)
+
+		String name = " Mad";
+		String surname = "    Max";
+		
+		System.out.println("Your initials are " + name.charAt(0) + "." + surname.charAt(0));
+		// The above shows an example of an issue twhere we did not trim the
+		// user's input. This is a fixed example:
+		System.out.println("Your initials are " + name.trim().charAt(0) + "." + surname.trim().charAt(0));
 	}
 }
