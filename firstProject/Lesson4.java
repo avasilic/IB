@@ -97,5 +97,12 @@ public class Lesson4 {
 		// The above shows an example of an issue twhere we did not trim the
 		// user's input. This is a fixed example:
 		System.out.println("Your initials are " + name.trim().charAt(0) + "." + surname.trim().charAt(0));
+		
+		name = name.trim();
+		surname = surname.trim();
+		
+		System.out.println("Your initials are " + name.charAt(0) + "." + surname.charAt(0));
+		// Now that we have changed the variables to be trimmed we can use the
+		// original line of code
 	}
 }
