@@ -11,10 +11,12 @@ public class Lesson6 {
 		int q = 5;
 
 		System.out.println("h=" + h + " q=" + q);
-		
+
 		// Swap the values of the variables
 		int temp = h;
 		h = q;
 		q = temp;
+
+		System.out.println("h=" + h + " q=" + q);
 	}
 }
