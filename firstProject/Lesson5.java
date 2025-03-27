@@ -53,5 +53,22 @@ public class Lesson5 {
 		// Example: if a=21, increments to 22, then calculates 22 + 22 = 44
 
 		a += 1; // This will increment a by 1
+
+		int q = 78;
+		int p = 2 + q++;
+
+		System.out.println("p=" + p + " q=" + q); // p=80 q=79
+
+		p = ++q + 2;
+		System.out.println("p=" + p + " q=" + q); // p=82 q=80
+
+		q *= 2; // q=q*2
+		q /= 30; // q=q/30
+
+		System.out.println(q);// 5. Integer division
+
+		q -= 20; // q=q-20
+
+		System.out.println(q);// -15
 	}
 }
