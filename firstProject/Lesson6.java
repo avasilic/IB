@@ -18,5 +18,13 @@ public class Lesson6 {
 		q = temp;
 
 		System.out.println("h=" + h + " q=" + q);
+		
+		// Now lets swap but with math operators not temp operators, but we
+		// act like we dont know the values
+		h = h + q;
+		q = h - q;
+		h = h - q;
+		
+		System.out.println("h=" + h + " q=" + q);
 	}
 }
