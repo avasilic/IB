@@ -2,7 +2,8 @@
  * Author: Aleksandar Vasilić
  * Date: 2025-04-01
  * Common math functions, scientific notation, binary and hexadecimal numbers
- * in Java. Related to Lesson 6 in the Java BluePelican book. 
+ * in Java. Related to Lessons 6 (math operations) and 14 (binary and hex in
+ * Java) in the Java BluePelican book. 
  ************************************************
 */
 
