@@ -14,5 +14,13 @@ public class Lesson7 {
 		System.out.println(Math.pow(2, 4)); // 2^4
 		System.out.println(Math.pow(2.3, 4.8)); // Doesn't matter if its decimal
 		System.out.println(Math.pow(2, -1)); // Doesn't matter if its negative
+
+		System.out.println(Math.sqrt(16)); // sqrt of 16. The result of
+		// Math.sqrt() is always a decimal number.
+		System.out.println(Math.max(d, 1000)); // Returns the number which is
+		// highest
+
+		double e = Math.sqrt(22);
+		System.out.println(e);
 	}
 }
