@@ -45,5 +45,14 @@ public class Lesson7 {
 
 		System.out.println(Math.sin(Math.toRadians(30))); // This conversion is
 		// also inexact.
+
+		int binNumber = 0b1101;
+		System.out.println(binNumber); // Outputs the value in the denary system
+
+		int hexNumber = 0xA7;
+		System.out.println(hexNumber);
+
+		int octNumber = 0112;
+		System.out.println(octNumber);
 	}
 }
