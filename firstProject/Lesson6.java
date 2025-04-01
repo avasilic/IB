@@ -26,5 +26,16 @@ public class Lesson6 {
 		h = h - q;
 
 		System.out.println("h=" + h + " q=" + q);
+		
+		int m = 100;
+		int n = 20;
+		System.out.println("m=" + m + " n=" + n);
+		
+		// Now lets swap with multiplication and division
+		m = m * n;
+		n = m / n;
+		m = m / n;
+		
+		System.out.println("m=" + m + " n=" + n);
 	}
 }
