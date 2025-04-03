@@ -39,6 +39,9 @@ public class Lesson8 {
 		String name = kbReader.next(); // next() returns a String
 		System.out.println("Please enter your surname");
 		String surname = kbReader.next();
+
 		System.out.println("Hello " + name + " " + surname + "!");
+		// No need for trim() since Java trims
+		System.out.println("Your initals are " + name.charAt(0) + "." + surname.charAt(0) + ".");
 	}
 }
