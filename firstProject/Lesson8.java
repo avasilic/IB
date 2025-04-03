@@ -39,6 +39,6 @@ public class Lesson8 {
 		String name = kbReader.next(); // next() returns a String
 		System.out.println("Please enter your surname");
 		String surname = kbReader.next();
-		System.out.println("Hello " + name + surname);
+		System.out.println("Hello " + name + " " + surname);
 	}
 }
