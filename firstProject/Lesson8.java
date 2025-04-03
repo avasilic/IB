@@ -20,7 +20,9 @@ public class Lesson8 {
 		 */
 		System.out.println("Please enter one integer number:");
 		int number = kbReader.nextInt(); // Read the integer from the keyboard
-		System.out.println("You entered" + number);
+		// Java automatically removes whitespace and so '     50     ' will
+		// still output 50
+		System.out.println("You entered " + number);
 		System.out.println("and its doubled value is " + 2 * number);
 	}
 }
