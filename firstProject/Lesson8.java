@@ -1,7 +1,7 @@
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-04-03
- * Input from the keyboar. Related to Lesson 7 in the Java BluePelican book.
+ * Input from the keyboard. Related to Lesson 7 in the Java BluePelican book.
  ************************************************
 */
 
@@ -14,10 +14,10 @@ public class Lesson8 {
 
 		/*
 		 * Available methods of the scanner:
-		 * nextInt()
-		 * nextDouble()
-		 * next()
-		 * nextLine()
+		 * nextInt() - Gets the next integer from the keyboard. Returns int
+		 * nextDouble() - Gets the next double from the keyboard. Returns double
+		 * next() - Gets the next token from the keyboard. Returns String
+		 * nextLine() - Gets the next line from the keyboard. Returns String
 		 */
 	}
 }
