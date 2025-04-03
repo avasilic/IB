@@ -5,11 +5,19 @@
  ************************************************
 */
 
-import java.io.*;
+import java.io.*; // Import the java.io (io=input/output) package
 import java.util.*;
 
 public class Lesson8 {
 	public static void main(String args[]) {
 		Scanner kbReader = new Scanner(System.in);
+
+		/*
+		 * Available methods of the scanner:
+		 * nextInt()
+		 * nextDouble()
+		 * next()
+		 * nextLine()
+		 */
 	}
 }
