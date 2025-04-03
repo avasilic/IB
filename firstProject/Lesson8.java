@@ -20,6 +20,6 @@ public class Lesson8 {
 		 */
 		System.out.println("Please enter one integer number:");
 		int number = kbReader.nextInt(); // Read the integer from the keyboard
-		System.out.println(number);
+		System.out.println("You entered" + number);
 	}
 }
