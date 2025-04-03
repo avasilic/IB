@@ -10,6 +10,6 @@ import java.util.*;
 
 public class Lesson8 {
 	public static void main(String args[]) {
-
+		Scanner kbReader = new Scanner(System.in);
 	}
 }
