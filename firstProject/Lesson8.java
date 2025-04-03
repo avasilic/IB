@@ -30,9 +30,14 @@ public class Lesson8 {
 		double length = kbReader.nextDouble();
 		// We do not care how the above two are typed—it doesn't matter whether
 		// they are in the same line or if there are two lines
-		
+
 		double area = width * length;
 		System.out.println("The area is " + area);
-		System.out.println("The permimiter is" + 2 * (width + length));
+		System.out.println("The permimiter is " + 2 * (width + length));
+
+		System.out.println("Please enter your name");
+		String name = kbReader.next(); // next() returns a String
+		String surname = kbReader.next();
+		System.out.println("Hello " + name + surname);
 	}
 }
