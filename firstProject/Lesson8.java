@@ -20,9 +20,16 @@ public class Lesson8 {
 		 */
 		System.out.println("Please enter one integer number:");
 		int number = kbReader.nextInt(); // Read the integer from the keyboard
-		// Java automatically removes whitespace and so '     50     ' will
+		// Java automatically removes whitespace and so ' 50 ' will
 		// still output 50
 		System.out.println("You entered " + number);
 		System.out.println("and its doubled value is " + 2 * number);
+
+		System.out.println("Please enter width and length of rectangle");
+		double width = kbReader.nextDouble();
+		double length = kbReader.nextDouble();
+
+		double area = width * length;
+		System.out.println("The area is " + area);
 	}
 }
