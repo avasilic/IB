@@ -11,7 +11,6 @@ import java.util.*;
 public class Lesson8 {
 	public static void main(String args[]) {
 		Scanner kbReader = new Scanner(System.in);
-
 		/*
 		 * Available methods of the scanner:
 		 * nextInt() - Gets the next integer from the keyboard. Returns int
@@ -19,5 +18,8 @@ public class Lesson8 {
 		 * next() - Gets the next token from the keyboard. Returns String
 		 * nextLine() - Gets the next line from the keyboard. Returns String
 		 */
+		System.out.println("Please enter one integer number:");
+		int number = kbReader.nextInt(); // Read the integer from the keyboard
+		System.out.println(number);
 	}
 }
