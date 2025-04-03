@@ -28,8 +28,11 @@ public class Lesson8 {
 		System.out.println("Please enter width and length of rectangle");
 		double width = kbReader.nextDouble();
 		double length = kbReader.nextDouble();
-
+		// We do not care how the above two are typed—it doesn't matter whether
+		// they are in the same line or if there are two lines
+		
 		double area = width * length;
 		System.out.println("The area is " + area);
+		System.out.println("The permimiter is" + 2 * (width + length));
 	}
 }
