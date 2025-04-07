@@ -46,10 +46,12 @@ public class Lesson8 {
 		kbReader.nextLine();
 
 		System.out.println("Please enter your full name");
-		String fullname = kbReader.nextLine();
+		String fullNameCleaned = kbReader.nextLine().trim();
 		// We need to handle something like " Aleksandar Vasilic ",
 		// we know there will be one space before the surname
-		System.out.println("Your initals are " + fullname.trim().charAt(0) + "."
-				+ fullname.trim().charAt(fullname.trim().lastIndexOf(" ") + 1) + ".");
+		char firstInitial = fullNameCleaned.charAt(0);
+		char lastInitial = fullNameCleaned.charAt(fullNameCleaned.lastIndexOf(" ") + 1);
+
+		System.out.println("Your initials are " + firstInitial + "." + lastInitial + ".");
 	}
 }
