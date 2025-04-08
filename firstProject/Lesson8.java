@@ -44,16 +44,5 @@ public class Lesson8 {
 		// No need for trim() since Java trims
 		System.out.println("Your initals are " + name.charAt(0) + "." + surname.charAt(0) + ".");
 		kbReader.nextLine();
-
-		// Homework 2025-04-08 ------
-		System.out.println("Please enter your full name");
-		String fullNameCleaned = kbReader.nextLine().trim();
-		// We need to handle something like " Aleksandar Vasilic ",
-		// we know there will be one space before the surname
-		char firstInitial = fullNameCleaned.charAt(0);
-		char lastInitial = fullNameCleaned.charAt(fullNameCleaned.lastIndexOf(" ") + 1);
-
-		System.out.println("Your initials are " + firstInitial + "." + lastInitial + ".");
-		// ----- Homework 2025-04-08
 	}
 }
