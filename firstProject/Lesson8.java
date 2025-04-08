@@ -45,7 +45,7 @@ public class Lesson8 {
 		System.out.println("Your initals are " + name.charAt(0) + "." + surname.charAt(0) + ".");
 		kbReader.nextLine();
 
-		// Homework ------
+		// Homework 2025-04-08 ------
 		System.out.println("Please enter your full name");
 		String fullNameCleaned = kbReader.nextLine().trim();
 		// We need to handle something like " Aleksandar Vasilic ",
@@ -54,6 +54,6 @@ public class Lesson8 {
 		char lastInitial = fullNameCleaned.charAt(fullNameCleaned.lastIndexOf(" ") + 1);
 
 		System.out.println("Your initials are " + firstInitial + "." + lastInitial + ".");
-		// ----- Homework
+		// ----- Homework 2025-04-08
 	}
 }
