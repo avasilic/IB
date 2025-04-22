@@ -10,17 +10,45 @@ public class Question8 {
 		int c = kbReader.nextInt();
 
 		if (a > b) {
+			// Branch 1
 			if (a > c) {
-				System.out.println("The maximum is" + a);
+				// Branch 1.1
+				System.out.println("The maximum is " + a);
 			} else {
-				System.out.println("The maximum is" + c);
+				// Branch 1.2
+				System.out.println("The maximum is " + c);
 			}
 		} else {
+			// Branch 2
 			if (b > c) {
-				System.out.println("The maximum is" + b);
+				// Branch 2.1
+				System.out.println("The maximum is " + b);
 			} else {
-				System.out.println("The maximum is" + c);
+				// Branch 2.2
+				System.out.println("The maximum is " + c);
 			}
 		}
+
+		// Testing:
+		// We need to test each branch.
+		// Case 1: a > b, a > c
+		// Input: a = 5, b = 3, c = 2
+		// Output: The maximum is 5
+		// Branches: a > b → a > c
+		//
+		// Case 2: a > b, a <= c
+		// Input: a = 5, b = 3, c = 8
+		// Output: The maximum is 8
+		// Branches: a > b → a <= c
+		//
+		// Case 3: a <= b, b > c
+		// Input: a = 3, b = 5, c = 2
+		// Output: The maximum is 5
+		// Branches: a <= b → b > c
+		//
+		// Case 4: a <= b, b <= c
+		// Input: a = 3, b = 5, c = 8
+		// Output: The maximum is 8
+		// Branches: a <= b → b <= c
 	}
 }
