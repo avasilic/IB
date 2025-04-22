@@ -22,7 +22,7 @@ public class Question9 {
         double y2 = kbReader.nextDouble();
         
         double distance = Math.sqrt(Math.pow(x1-x2, 2) + Math.pow(y1-y2, 2));
-        double gradient = (y2-y1) / (x2-x2);
+        double gradient = (y2-y1) / (x2-x1);
         double midpointX = (x1 + x2) / 2;
         double midpointY = (y1 + y2) / 2;
         
