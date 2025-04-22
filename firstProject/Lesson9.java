@@ -1,10 +1,8 @@
-import java.io.*;
 import java.util.*;
 
 public class Lesson9 {
 	public static void main(String args[]) {
-		// Q1. Create a program where a user enters his/her age and the code prints
-		// whether they are adult or not
+		// Q1. Create a program where a user enters his/her age and the code prints whether they are adult or not
 		Scanner kbReader = new Scanner(System.in);
 		System.out.println("Enter your age"); // No limit so technically you
 		// can enter negative numbers
