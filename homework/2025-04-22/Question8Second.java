@@ -11,9 +11,11 @@ public class Question8Second {
 
 		if (a > b && a > c) {
 			System.out.println("The maximum is " + a);
-		} else if (b > a && b > c) {
+		}
+		if (b > a && b > c) {
 			System.out.println("The maximum is " + b);
-		} else if (c > a && c > b) {
+		}
+		if (c > a && c > b) {
 			System.out.println("The maximum is " + c);
 		}
 
