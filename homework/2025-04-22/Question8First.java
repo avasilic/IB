@@ -28,6 +28,8 @@ public class Question8First {
 				System.out.println("The maximum is " + c);
 			}
 		}
+		
+		kbReader.close();
 
 		/*
 		 * Testing:

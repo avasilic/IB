@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Question8Second {
+public class Question8Third {
 	public static void main(String args[]) {
 		Scanner kbReader = new Scanner(System.in);
 		System.out.println("Please enter three integers");
@@ -9,18 +9,18 @@ public class Question8Second {
 		int b = kbReader.nextInt();
 		int c = kbReader.nextInt();
 
-		if (a > b && a > c) {
+		if (a >= b && a >= c) {
 			System.out.println("The maximum is " + a);
 		}
-		if (b > a && b > c) {
+		if (b >= a && b >= c) {
 			System.out.println("The maximum is " + b);
 		}
-		if (c > a && c > b) {
+		if (c >= a && c >= b) {
 			System.out.println("The maximum is " + c);
 		}
 
 		kbReader.close();
-		
+
 		/*
 		 * Testing:
 		 * We need to test each branch.
@@ -46,7 +46,7 @@ public class Question8Second {
 		 * 
 		 * Case 5: a = b = c
 		 * Input: a = 5, b = 5, c = 5
-		 * Output: Fail
+		 * Output: The maximum is 5
 		 */
 	}
 }
