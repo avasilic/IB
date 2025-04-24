@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Question8 {
+public class Question8First {
 	public static void main(String args[]) {
 		Scanner kbReader = new Scanner(System.in);
 		System.out.println("Please enter three integers");
@@ -51,6 +51,8 @@ public class Question8 {
 		 * Input: a = 3, b = 5, c = 8
 		 * Output: The maximum is 8
 		 * Branches: a <= b -> b <= c
+		 *	
+		 * Needs more tests.
 		 */
 	}
 }
