@@ -46,7 +46,7 @@ public class Question8Third {
 		 * 
 		 * Case 5: a = b = c
 		 * Input: a = 5, b = 5, c = 5
-		 * Output: The maximum is 5
+		 * Output: The maximum is 5 (x3)
 		 */
 	}
 }
