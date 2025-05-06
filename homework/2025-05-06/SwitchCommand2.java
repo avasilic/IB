@@ -33,11 +33,15 @@ public class SwitchCommand2 {
 				break;
 			case 'D':
 				// Case 4: division
-				System.out.println(val1 + "/" + val2 + "=" + (val1 / val2));
+				if (val2 == 0) {
+					System.out.println("Division by zero is not possible.");
+				} else {
+					System.out.println(val1 + "/" + val2 + "=" + (val1 / val2));
+				}
 				break;
 			default:
 				// Fallthrough
-				System.out.println("Unknown option. Please choose from A-D.");
+				System.out.println("Unknown option. You must choose from A-D.");
 		}
 
 		kbReader.close();
