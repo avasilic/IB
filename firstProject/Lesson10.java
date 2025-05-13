@@ -9,9 +9,10 @@ import java.util.*;
 
 public class Lesson10 {
 	public static void main(String args[]) {
-		Scanner kbReader = new Scanner(System.in);
+		// Question 1
+		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter the last positive integer you would like to be printed");
-		int number = kbReader.nextInt();
+		int number = input.nextInt();
 
 		for (int i = 1; i <= number; i++) {
 			System.out.print(i + " ");
@@ -27,6 +28,16 @@ public class Lesson10 {
 			}
 		}
 
-		kbReader.close();
+		// Question 2
+		System.out.println("\nPlease enter the lower bound of the range you'd like to print");
+		int lowerBoundQ2 = input.nextInt();
+		System.out.println("Please enter the upper bound of the range you'd like to print");
+		int upperBoundQ2 = input.nextInt();
+
+		for (int i = lowerBoundQ2; i <= upperBoundQ2; i++) {
+			System.out.print(i + " ");
+		}
+
+		input.close();
 	}
 }
