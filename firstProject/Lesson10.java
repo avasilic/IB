@@ -11,16 +11,16 @@ public class Lesson10 {
 	public static void main(String args[]) {
 		Scanner kbReader = new Scanner(System.in);
 		System.out.println("Please enter the last positive integer you would like to be printed");
-		int integer = kbReader.nextInt();
+		int number = kbReader.nextInt();
 
-		for (int i = 1; i <= integer; i++) {
+		for (int i = 1; i <= number; i++) {
 			System.out.println("Integer: " + i);
 		}
 
 		System.out.println("\n\n---Additional request---\n\n");
 
 		// Additional request
-		for (int i = 1; i <= integer; i++) {
+		for (int i = 1; i <= number; i++) {
 			System.out.println("Integer: " + i);
 			if (i % 10 == 0) {
 				System.out.print("\n");
