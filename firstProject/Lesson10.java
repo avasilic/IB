@@ -14,14 +14,14 @@ public class Lesson10 {
 		int number = kbReader.nextInt();
 
 		for (int i = 1; i <= number; i++) {
-			System.out.println("Integer: " + i);
+			System.out.print(i + " ");
 		}
 
 		System.out.println("\n\n---Additional request---\n\n");
 
 		// Additional request
 		for (int i = 1; i <= number; i++) {
-			System.out.println("Integer: " + i);
+			System.out.print(i + " ");
 			if (i % 10 == 0) {
 				System.out.print("\n");
 			}
