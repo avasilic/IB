@@ -21,7 +21,7 @@ public class Lesson10 {
 
 		// Additional request
 		for (int i = 1; i <= number; i++) {
-			System.out.print(i + " ");
+			System.out.print(i + "\t");
 			if (i % 10 == 0) {
 				System.out.print("\n");
 			}
