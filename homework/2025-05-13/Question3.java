@@ -5,18 +5,18 @@ public class Question3 {
 		Scanner input = new Scanner(System.in);
 
 		System.out.println("\nPlease enter the lower bound of the range you'd like to print");
-		int lowerBoundQ3 = input.nextInt();
+		int lowerBound = input.nextInt();
 		System.out.println("Please enter the upper bound of the range you'd like to print");
-		int upperBoundQ3 = input.nextInt();
+		int upperBound = input.nextInt();
 
 		// Swap
-		if (lowerBoundQ3 > upperBoundQ3) {
-			int temp = lowerBoundQ3;
-			lowerBoundQ3 = upperBoundQ3;
-			upperBoundQ3 = temp;
+		if (lowerBound > upperBound) {
+			int temp = lowerBound;
+			lowerBound = upperBound;
+			upperBound = temp;
 		}
 
-		for (int i = lowerBoundQ3; i <= upperBoundQ3; i++) {
+		for (int i = lowerBound; i <= upperBound; i++) {
 			System.out.print(i + " ");
 		}
 
