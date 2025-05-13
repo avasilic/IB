@@ -1,14 +1,32 @@
 /*
  * Author: Aleksandar Vasilić
- * Date: 2025-05-06
- * Switch
+ * Date: 2025-05-13
+ * Looping
  ************************************************
-*/;
+*/
+
+import java.util.*;
 
 public class Lesson10 {
 	public static void main(String args[]) {
-		System.out.println("Hello world!"); // Print content & new line
-		System.out.print("Welcome to the ");
-		System.out.print("CS class"); // Print content on the same line
+		Scanner kbReader = new Scanner(System.in);
+		System.out.println("Please enter the last positive integer you would like to be printed");
+		int integer = kbReader.nextInt();
+
+		for (int i = 1; i <= integer; i++) {
+			System.out.println("Integer: " + i);
+		}
+
+		System.out.println("\n\n---Additional request---\n\n");
+
+		// Additional request
+		for (int i = 1; i <= integer; i++) {
+			System.out.println("Integer: " + i);
+			if (i % 10 == 0) {
+				System.out.print("\n");
+			}
+		}
+
+		kbReader.close();
 	}
 }
