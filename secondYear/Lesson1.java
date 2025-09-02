@@ -20,7 +20,7 @@ public class Lesson1 {
 		System.out.println("Please enter the upper limit of the numbers you'd like to print.");
 		int upperLimit = input.nextInt();
 
-		int currentValue = 1;
+		int currentValue = base;
 		int count = 0;
 		int sum = 0;
 
