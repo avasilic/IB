@@ -7,7 +7,7 @@
 */
 import java.util.*;
 
-public class Lesson1 {
+public class Lesson3 {
 	public static void main(String args[]) {
 		// Question 3: User enters one integer number. Find how many digits it has.
 
