@@ -1,9 +1,8 @@
-
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-09-02
  * Question 7: Convert the entered denary (decimal) integer value into the
- * corresponding binary.
+ * corresponding binary number.
  ************************************************
 */
 import java.util.*;
