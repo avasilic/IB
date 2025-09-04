@@ -16,7 +16,7 @@ public class Lesson3 {
 		int number = input.nextInt();
 
 		int count = 0;
-		while (number > 0) {
+		while (number != 0) {
 			number = number / 10;
 			count++;
 		}
