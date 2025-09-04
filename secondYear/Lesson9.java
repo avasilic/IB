@@ -16,11 +16,11 @@ public class Lesson9 {
 		int originalN = n;
 
 		int denary = 0;
-		int base = 1; // 2^0
+		int position = 1;
 		while (n > 0) {
 			int lastDigit = n % 10;
-			denary += lastDigit * base;
-			base *= 2; // Move to the next power of 2
+			denary += lastDigit * position;
+			position *= 2; // Move to the next power of 2
 			n /= 10;
 		}
 
