@@ -11,20 +11,20 @@ import java.util.*;
 public class Lesson5 {
 	public static void main(String args[]) {
 		Scanner input = new Scanner(System.in);
-		
+
 		System.out.println("Please enter the first number, n.");
 		int n = input.nextInt();
 
-		System.out.println("Please enter the first number, m.");
+		System.out.println("Please enter the second number, m.");
 		int m = input.nextInt();
-		
+
 		int remainder = n;
 		while (remainder >= m) {
 			remainder -= m;
 		}
-		
-		System.out.println("The remainder of the integer division n / m is: " + remainder);
-		
+
+		System.out.println("The remainder of the integer division " + n + "/" + m + " is: " + remainder);
+
 		input.close();
 	}
 }
