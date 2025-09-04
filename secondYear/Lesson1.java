@@ -2,7 +2,9 @@
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-09-02
- * This file is about for loops.
+ * A user enters the base and the upper limit. List all of
+ * the powers of the given base lesser than the limit. Additionally,
+ * try to count them and find their sum. You must use a while loop.
  ************************************************
 */
 import java.util.*;
