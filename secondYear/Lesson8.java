@@ -23,26 +23,7 @@ public class Lesson8 {
 			if (remainder < 10) {
 				hex = remainder + hex;
 			} else {
-				switch (remainder) {
-					case 10:
-						hex = "A" + hex;
-						break;
-					case 11:
-						hex = "B" + hex;
-						break;
-					case 12:
-						hex = "C" + hex;
-						break;
-					case 13:
-						hex = "D" + hex;
-						break;
-					case 14:
-						hex = "E" + hex;
-						break;
-					case 15:
-						hex = "F" + hex;
-						break;
-				}
+				hex = (char) ('A' + (remainder - 10)) + hex;
 			}
 			n /= 16;
 		}
