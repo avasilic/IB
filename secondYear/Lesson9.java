@@ -1,8 +1,8 @@
-
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-09-02
- * Question 9: A binary value is entered by the user. Print matching denary representation using a while loop and no Math.pow().
+ * Question 9: A binary value is entered by the user. Print matching denary
+ * representation using a while loop and no Math.pow().
  ************************************************
 */
 import java.util.*;
