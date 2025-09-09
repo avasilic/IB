@@ -48,7 +48,7 @@ public class Lesson12 {
 					System.out.println("Invalid option '" + option + "' selected. Try again");
 				}
 			}
-		} while (exitProgram != true);
+		} while (!exitProgram);
 
 		input.close();
 	}
