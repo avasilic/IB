@@ -22,7 +22,7 @@ public class Lesson14 {
 		}
 
 		System.out.print("Enter the comparison number (m): ");
-		double m = input.nextInt();
+		int m = input.nextInt();
 
 		int countGreater = 0;
 		for (int i = 0; i < numbers.length(); i++) {
