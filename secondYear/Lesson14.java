@@ -16,7 +16,7 @@ public class Lesson14 {
 		int n = input.nextInt();
 		int numbers[] = new int[n];
 
-		for (int i = 0; i < numbers.length(); i++) {
+		for (int i = 0; i < numbers.length; i++) {
 			System.out.print("Enter value " + (i + 1) + ": ");
 			numbers[i] = input.nextInt();
 		}
@@ -25,7 +25,7 @@ public class Lesson14 {
 		int m = input.nextInt();
 
 		int countGreater = 0;
-		for (int i = 0; i < numbers.length(); i++) {
+		for (int i = 0; i < numbers.length; i++) {
 			if (numbers[i] > m) {
 				countGreater++;
 			}
