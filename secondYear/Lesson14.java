@@ -1,22 +1,38 @@
+import java.util.*;
 
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-09-16
- * Question 14: Create an array of 100 elements such that the first one is 1, second is 2, then 3,4 etc. Print all elements. Use two for loops
+ * Question 2: User enters a number n and then enters n integer numbers.
+ * Following that, a new integer number m for comparison is entered. How many
+ * of these n integers were greater than the m?
  ************************************************
 */
 public class Lesson14 {
 	public static void main(String args[]) {
-		int[] numbers = new int[100];
-		for (int i = 0; i < numbers.length; i++) {
-			numbers[i] = i + 1;
+		Scanner input = new Scanner(System.in);
+
+		System.out.print("Enter the number of values to compare: ");
+		int n = input.nextInt();
+		int[] numbers = new int[n];
+
+		for (int i = 0; i < n; i++) {
+			System.out.print("Enter value " + (i + 1) + ": ");
+			numbers[i] = input.nextInt();
 		}
 
-		for (int j = 0; j < numbers.length; j++) {
-			if (j % 10 == 0 && j != 0) {
-				System.out.println("\n");
+		System.out.print("Enter the comparison number (m): ");
+		double m = input.nextDouble();
+
+		int countGreater = 0;
+		for (int i = 0; i < n; i++) {
+			if (numbers[i] > m) {
+				countGreater++;
 			}
-			System.out.print(numbers[j] + "\t");
 		}
+
+		System.out.println("Number of values greater than " + m + ": " + countGreater);
+
+		input.close();
 	}
 }
