@@ -13,7 +13,10 @@ public class Lesson14 {
 		}
 
 		for (int j = 0; j < numbers.length; j++) {
-			System.out.print(numbers[j] + " ");
+			if (j % 10 == 0 && j != 0) {
+				System.out.println("\n");
+			}
+			System.out.print(numbers[j] + "\t");
 		}
 	}
 }
