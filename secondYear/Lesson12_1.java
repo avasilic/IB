@@ -2,15 +2,12 @@
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-09-09
- * Question 11: Computer generates a random number between 1–100 (inclusive).
- * User tries to guess it and the computer assists in guessing by appropriate
- * (higher/lower) message. At the end the number of trials needed should be
- * printed.
+ * Question 12.1
  ************************************************
 */
 import java.util.*;
 
-public class Lesson12 {
+public class Lesson12_1 {
 	public static void main(String args[]) {
 		Scanner input = new Scanner(System.in);
 
