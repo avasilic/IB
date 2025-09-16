@@ -14,18 +14,18 @@ public class Lesson14 {
 
 		System.out.print("Enter the number of values to compare: ");
 		int n = input.nextInt();
-		int[] numbers = new int[n];
+		int numbers[] = new int[n];
 
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < numbers.length(); i++) {
 			System.out.print("Enter value " + (i + 1) + ": ");
 			numbers[i] = input.nextInt();
 		}
 
 		System.out.print("Enter the comparison number (m): ");
-		double m = input.nextDouble();
+		double m = input.nextInt();
 
 		int countGreater = 0;
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < numbers.length(); i++) {
 			if (numbers[i] > m) {
 				countGreater++;
 			}
