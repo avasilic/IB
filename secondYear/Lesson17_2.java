@@ -1,5 +1,3 @@
-import java.util.Random;
-
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-09-16
@@ -16,12 +14,11 @@ public class Lesson17_2 {
 			numbers[i] = i + 1;
 		}
 
-		Random random = new Random();
 		int remainingCount = 100;
 
 		System.out.println("Tombola Drawing:");
 		for (int draw = 1; draw <= 100; draw++) {
-			int randomIndex = random.nextInt(remainingCount); // Pick random index from remaining numbers
+			int randomIndex = (int)(Math.random() * remainingCount); // Pick random index from remaining numbers
 
 			int drawnNumber = numbers[randomIndex];
 
