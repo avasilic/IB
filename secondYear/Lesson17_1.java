@@ -3,13 +3,13 @@ import java.util.*;
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-09-16
- * Question 11: User enters 20 elements of an integer array. Program should
+ * Question 11a: User enters 20 elements of an integer array. Program should
  * shift all elements one position to the left whereas the first element of the
  * array must be placed at the end of the array – on the last position.
  * Print the array with the new order.
  ************************************************
 */
-public class Lesson17 {
+public class Lesson17_1 {
 	public static void main(String args[]) {
 		Scanner kbReader = new Scanner(System.in);
 
