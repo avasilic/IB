@@ -3,7 +3,7 @@
  * Date: 2025-09-16
  * Question 10: Simulation of Tombola drawing: The program should generate
  * unrepeated numbers from 1 to 100. The output is formatted by 10 numbers
- * in a row. "Smart" solution below.
+ * in a row. "Smart" solution below (Fisher-Yates algorithm).
  *
  ************************************************
 */
