@@ -9,7 +9,7 @@ import java.util.*;
  * two arrays (i.e. the same indices)
  ************************************************
 */
-public class Lesson18 {
+public class Lesson19 {
 	public static void main(String args[]) {
 		Scanner kbReader = new Scanner(System.in);
 

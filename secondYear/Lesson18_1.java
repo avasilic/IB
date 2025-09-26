@@ -9,7 +9,7 @@ import java.util.*;
  * Print the array with the new order.
  ************************************************
 */
-public class Lesson17_1 {
+public class Lesson18_1 {
 	public static void main(String args[]) {
 		Scanner kbReader = new Scanner(System.in);
 

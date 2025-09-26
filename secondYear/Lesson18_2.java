@@ -7,7 +7,7 @@ import java.util.*;
  * shift all elements one position to the right.
  ************************************************
 */
-public class Lesson17_2 {
+public class Lesson18_2 {
 	public static void main(String args[]) {
 		Scanner kbReader = new Scanner(System.in);
 
