@@ -4,8 +4,8 @@ import java.util.*;
  * Author: Aleksandar Vasilić
  * Date: 2025-09-16
  * Question 12: Two arrays, each of 10 real numbers are entered by the user.
- * Program should create and print the new one of the same size such that its
- * each element is obtained as the sum of corresponding elements from the first
+ * Program should create and print the new one of the same size such that each
+ * element is obtained as the sum of corresponding elements from the first
  * two arrays (i.e. the same indices)
  ************************************************
 */
