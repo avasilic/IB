@@ -2,8 +2,8 @@ import java.io.*;
 
 /*
  * Author: Aleksandar Vasilić
- * Date: 2025-09-16
- * Question X: Writing to a file / reading from a file
+ * Date: 2025-11-07
+ * Question X: Reading from a file
  ************************************************
 */
 public class Lesson21 {
