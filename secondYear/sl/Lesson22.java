@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-11-07
- * Question X: Writing to a file
+ * Question X: Reading from a file
  ************************************************
 */
 public class Lesson22 {

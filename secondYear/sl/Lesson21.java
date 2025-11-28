@@ -3,7 +3,7 @@ import java.io.*;
 /*
  * Author: Aleksandar Vasilić
  * Date: 2025-11-07
- * Question X: Reading from a file
+ * Question X: Writing to a file
  ************************************************
 */
 public class Lesson21 {
