@@ -19,6 +19,15 @@ public class Lesson23 {
 
 		w = MyMethod.changeValue(w);
 		System.out.println(w);
+
+		String exampleChar = "*";
+		int exampleRepetitions = 5;
+
+		System.out.println(MyMethod.repeatLine(exampleRepetitions, exampleChar));
+
+		System.out.println();
+
+		System.out.println(MyMethod.repeatTriangle(exampleRepetitions, exampleChar));
 	}
 }
 
@@ -45,5 +54,21 @@ class MyMethod {
 
 	public static int changeValue(int k) {
 		return (k + 100);
+	}
+
+	public static String repeatLine(int repetitions, String character) {
+		String output = "";
+		for (int i = 0; i < repetitions; i++) {
+			output += character;
+		}
+		return output;
+	}
+
+	public static String repeatTriangle(int repetitions, String character) {
+		String output = "";
+		for (int i = 0; i < repetitions; i++) {
+			output += repeatLine(i + 1, character) + "\n";
+		}
+		return output;
 	}
 }
