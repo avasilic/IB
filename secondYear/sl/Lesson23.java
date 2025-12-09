@@ -23,11 +23,11 @@ public class Lesson23 {
 		String exampleChar = "*";
 		int exampleRepetitions = 5;
 
-		System.out.println(MyMethod.repeatLine(exampleRepetitions, exampleChar));
+		MyMethod.repeatLine(exampleRepetitions, exampleChar);
 
 		System.out.println();
 
-		System.out.println(MyMethod.repeatTriangle(exampleRepetitions, exampleChar));
+		MyMethod.repeatTriangle(exampleRepetitions, exampleChar);
 	}
 }
 
@@ -56,19 +56,16 @@ class MyMethod {
 		return (k + 100);
 	}
 
-	public static String repeatLine(int repetitions, String character) {
-		String output = "";
+	public static void repeatLine(int repetitions, String character) {
 		for (int i = 0; i < repetitions; i++) {
-			output += character;
+			System.out.print(character);
 		}
-		return output;
+		System.out.println();
 	}
 
-	public static String repeatTriangle(int repetitions, String character) {
-		String output = "";
+	public static void repeatTriangle(int repetitions, String character) {
 		for (int i = 0; i < repetitions; i++) {
-			output += repeatLine(i + 1, character) + "\n";
+			repeatLine(i + 1, character);
 		}
-		return output;
 	}
 }
