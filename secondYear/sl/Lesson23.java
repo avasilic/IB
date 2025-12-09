@@ -57,15 +57,15 @@ class MyMethod {
 	}
 
 	public static void repeatLine(int repetitions, String character) {
-		for (int i = 0; i < repetitions; i++) {
+		for (int i = 1; i <= repetitions; i++) {
 			System.out.print(character);
 		}
 		System.out.println();
 	}
 
 	public static void repeatTriangle(int repetitions, String character) {
-		for (int i = 0; i < repetitions; i++) {
-			repeatLine(i + 1, character);
+		for (int i = 1; i <= repetitions; i++) {
+			repeatLine(i, character);
 		}
 	}
 }
