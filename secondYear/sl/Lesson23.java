@@ -28,6 +28,10 @@ public class Lesson23 {
 		System.out.println();
 
 		MyMethod.repeatTriangle(exampleRepetitions, exampleChar);
+
+		System.out.println();
+
+		System.out.println(MyMethod.repeatTriangleBF(exampleRepetitions, exampleChar));
 	}
 }
 
@@ -67,5 +71,17 @@ class MyMethod {
 		for (int i = 1; i <= repetitions; i++) {
 			repeatLine(i, character);
 		}
+	}
+
+	// BF = Back and forth
+	public static int repeatTriangleBF(int repetitions, String character) {
+		for (int i = 1; i <= repetitions; i++) {
+			repeatLine(i, character);
+		}
+		for (int i = repetitions - 1; i >= 1; i--) {
+			repeatLine(i, character);
+		}
+
+		return (repetitions * repetitions);
 	}
 }
